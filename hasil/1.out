@@ -1,0 +1,135 @@
+Job-shop model
+
+Number of Counters                    4
+
+Number of employees in each counter         1    1 1000    2
+
+Number of customer types                        3
+
+Number of tasks for each customer type          3    3    2
+
+Distribution function of customer types     0.800   0.950   1.000
+
+Mean interarrival time of customer         30.00 seconds
+
+Length of the simulation                90.0 minutes
+
+
+Customer type    Route
+
+   1    1    3    4
+
+   2    2    3    4
+
+   3    4    3
+
+Service time for counter 1 = U(50, 40)
+
+Service time for counter 2 = U(60, 180)
+
+Service time for counter 3 = U(5, 20)
+
+Service time for counter 4 = U(0, 0)
+
+Accumulated service time for counter 1 = U(20, 0)
+
+Accumulated service time for counter 2 = U(5, 15)
+
+Accumulated service time for counter 3 = U(5, 10)
+
+Accumulated service time for counter 4 = U(0, 0)
+
+
+
+ Counter      Average number      Average       Average delay
+                     in queue       utilization        in queue
+
+   1          106.948            0.000         1899.300
+
+   2           14.505            0.000         1000.990
+
+   3            0.000            0.000            0.000
+
+   4            0.010            0.072            0.304
+
+Queue for hotfood (avg,max,min)
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    1         106.948          213.000          1.00000 
+_______________________________________________________
+
+
+
+Queue for sandiwch (avg,max,min)
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    2         14.5053          27.0000          0.00000 
+_______________________________________________________
+
+
+
+Queue for cashier (avg,max,min)
+
+  File         Time
+ number       average          Maximum          Minimum
+_______________________________________________________
+
+    4       0.0100908          2.00000          0.00000 
+_______________________________________________________
+
+
+
+
+
+
+Job type     Average total delay in queue
+
+   1                   1910.096
+
+   2                   1016.390
+
+   3                      2.835
+
+Overall average job total delay =  1680.677
+
+Delays in customer who start from HOTFOOD stand (avg, number of values, max, min)
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    5         636.699          352.000          3762.35          0.00000 
+________________________________________________________________________
+
+
+
+Delays in customer who start from SANDWICH stand (avg, number of values, max, min)
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    6         338.797          130.000          2349.26          0.00000 
+________________________________________________________________________
+
+
+
+Delays in customer who start from DRINK stand (avg, number of values, max, min)
+
+ sampst                         Number
+variable                          of
+ number       Average           values          Maximum          Minimum
+________________________________________________________________________
+
+    7         1.41759          38.0000          9.46408          0.00000 
+________________________________________________________________________
+
+
